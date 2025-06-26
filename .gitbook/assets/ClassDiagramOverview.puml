@@ -1,0 +1,92 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+package "Core"{
+
+    'classes and interfaces
+    interface ICloudClient{
+        +Constructor(cloudRegion : string, logPath : string)
+        +ReadParameter(filePath : json, objectToMap : object):object
+        +Log(logName : string,  logRecords : string[]):void
+        +Exists(ResourceType : enum, resourceName : string, vpcName = "" : string):boolean
+    }
+
+    class AwsCloudClientImpl
+
+    'relations
+    ICloudClient <|-- AwsCloudClientImpl
+    AwsCloudClientImpl *-- Cost
+    AwsCloudClientImpl *-- Backup
+    AwsCloudClientImpl *-- Deploy
+    AwsCloudClientImpl *-- Deliver
+}
+
+package "Cost"{
+    'classes and interfaces
+    class BudgetHelper{
+        +Constructor(AwsCloudClientImpl : awsClient)
+    }
+
+    class ReportHelper{
+        +Constructor(AwsCloudClientImpl : awsClient)
+    }
+
+    'relations
+}
+
+package "Backup"{
+    'classes and interfaces
+    class AmiHelper{
+        +Constructor(AwsCloudClientImpl : awsClient)
+    }
+
+    class SnapshotHelper{
+        +Constructor(AwsCloudClientImpl : awsClient)
+    }
+
+    'relations
+}
+
+
+package "Deploy"{
+    'classes and interfaces
+    class VpcHelper{
+        +Constructor(AwsCloudClientImpl : awsClient)
+    }
+
+    class IgwHelper{
+        +Constructor(AwsCloudClientImpl : awsClient)
+    }
+
+    class SubnetHelper{
+        +Constructor(AwsCloudClientImpl : awsClient)
+    }
+
+    class SecurityGroupHelper{
+        +Constructor(AwsCloudClientImpl : awsClient)
+    }
+
+    class RouteHelper{
+        +Constructor(AwsCloudClientImpl : awsClient)
+    }
+
+    class InstanceHelper{
+        +Constructor(AwsCloudClientImpl : awsClient)
+    }
+
+    'relations
+}
+
+package "Deliver"{
+    'classes and interfaces
+    class DescribeInfra{
+        +Constructor(AwsCloudClientImpl : awsClient)
+
+    }
+
+    class Credentials{
+        +Constructor(AwsCloudClientImpl : awsClient)
+    }
+}
+
+@enduml

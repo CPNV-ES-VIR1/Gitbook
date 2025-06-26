@@ -1,0 +1,54 @@
+cloud-architecture-diagram
+
+EndUserGUI [icon : user]
+EndUserAPI [icon : user]
+
+Cloud [icon: cloud]
+
+// Define groups and nodes
+Region [eu-south-1]{
+    VPC [icon: aws-vpc] {
+        InternetGateway [icon: aws-internet-gateway]
+        PublicSubnet {
+            ReverseProxy [icon: nginx]
+        }
+        
+        PrivateSubnet [color: red] {
+            DockerEngine [icon : linux]{
+                DockerNetworkPublic{
+                    APIGateway [icon : nginx]
+                }
+                DockerNetworkSSO{
+                    Authentication [icon:vault]
+                }
+                DockerNetworkFrontend{
+                    Frontend [icon: html5]
+                }
+                DockerNetworkBackend{
+                    Backend-MS-1 [icon : spring]
+                    Backend-MS-2 [icon : spring]
+                    Backend-MS-3 [icon : spring]
+                }
+                DockerNetworkDatabase{
+                    DataBaseEngine [icon : mysql]
+                }
+            }
+        }
+    }
+}
+
+// Define external connections
+EndUserGUI - Cloud : 443-HTTPS
+EndUserAPI - Cloud : 443-HTTPS (api)
+Cloud - InternetGateway : fqdn (api)
+InternetGateway - ReverseProxy : 443-HTTPS
+ReverseProxy - APIGateway : 8000-HTTP
+APIGateway - Authentication : 9000-HTTP
+
+// Define internal connections
+APIGateway - Frontend : 3000-HTTP
+APIGateway - Backend-MS-1 : 8080-RESOURCE-1
+APIGateway - Backend-MS-2 : 8080-RESOURCE-2
+APIGateway - Backend-MS-3 : 8080-RESOURCE-3
+Backend-MS-1 - DataBaseEngine : 3306-TCP
+Backend-MS-3 - DataBaseEngine : 3306-TCP

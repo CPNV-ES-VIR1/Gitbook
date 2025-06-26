@@ -1,0 +1,147 @@
+{
+
+    "vpcName" : "vpc-vir1",
+
+    "vpcCidr" : "10.0.0.0/16",
+
+    "igwName" : "igw-vir1" ,
+
+    "subnets" : [
+
+        {
+
+            "subnetName" : "subnet-public",
+
+            "subnetCidr" : "10.0.0.0/24",
+
+            "availabilityZone" : "a",
+
+            "routeTables" :
+
+            [
+
+                {
+
+                    "routeTableName" : "rtetable-public-subnet",
+
+                    "subnetAssociations" : [
+
+                        {
+
+                            "subnetName" : "subnet-public"
+
+                        }
+
+                    ]
+
+                }
+
+            ]
+
+        }
+
+    ],
+
+    "securityGroups" :[
+
+        {
+
+            "securityGroupName" : "securitygrp-sshsrv",
+
+            "inboundSecurityRules" :
+
+            [
+
+                {
+
+                    "ruleName" : "sshfromweb",
+
+                    "type" : "ssh",
+
+                    "protocole" : "tco",
+
+                    "portRange" : "22",
+
+                    "source" : "0.0.0.0/0",
+
+                    "description" : "ssh from web"
+
+                }
+
+            ],
+
+            "outboundSecurityRules" :
+
+            [
+
+                {
+
+                    "ruleName" : "sshtoweb",
+
+                    "type" : "all traffic",
+
+                    "protocole" : "all",
+
+                    "portRange" : "all",
+
+                    "destination" : "0.0.0.0/0",
+
+                    "description" : "ssh to web"
+
+                }
+
+            ]
+
+        }
+
+    ],
+
+    "keyPairs" :[
+
+        {
+
+            "keyPairsName" : "keypair-sshsrv",
+
+            "type" : "rsa"
+
+        }
+
+    ],
+
+    "instances" : [
+
+        {
+
+        "instanceName" : "instance-debian11_sshsrv",
+
+        "instancePublicIp" : "195.51.100.1",
+
+        "instancePrivateIp" : "10.0.0.5",
+
+        "instanceType" : "t3.micro",
+
+        "plateform" : "Debian",
+
+        "amiId" : "ami-0d5aa862a2016cd3e",
+
+        "terminationProtection" : "enabled",
+
+        "usageOperation" : "runInstances",
+
+        "securityGroupsName" :
+
+        [
+
+            {
+
+                "securityGroupName" : "securitygrp-sshsrv"
+
+            }
+
+        ],
+
+        "keyName" : ""
+
+        }
+    ]
+}
