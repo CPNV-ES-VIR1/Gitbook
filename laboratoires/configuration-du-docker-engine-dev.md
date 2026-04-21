@@ -10,8 +10,6 @@ Une attention particulière est portée à la compréhension des différentes é
 
 À l’issue du laboratoire, vous serez amenés à analyser de manière critique votre installation, en identifiant ses limitations, ainsi que les éléments essentiels à anticiper lors d’un déploiement en environnement de production. Environnement de production que vous devrez mettre en place dans la partie projet de l'unité.
 
-
-
 ## Prérequis
 
 Il est important d'avoir lu l'introduction Docker publiée ici:
@@ -46,54 +44,19 @@ Voici la documentation en fonction de votre système d'exploitation
 
 {% code overflow="wrap" expandable="true" %}
 ```
-docker ps -a
+docker --version
 ```
 {% endcode %}
 
 {% code overflow="wrap" expandable="true" %}
 ```
 //expected result
-CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+Docker version 29.4.1, build 055a478
 ```
 {% endcode %}
 
-* Récupérer l'image de NGINX
+{% embed url="https://docs.docker.com/engine/release-notes/29/" %}
 
-{% code overflow="wrap" expandable="true" %}
-```
-docker pull nginx:latest
-```
-{% endcode %}
+## Limitations
 
-{% code overflow="wrap" expandable="true" %}
-```
-//expected result
-latest: Pulling from library/nginx
-448ea5cac5d5: Pull complete 
-88d1d984b765: Pull complete 
-84e114c2bb36: Pull complete 
-5435b2dcdf5c: Pull complete 
-054715a6bffa: Pull complete 
-4a038fd18db1: Pull complete 
-7b5d674621c2: Pull complete 
-cc0cf959117b: Download complete 
-3eff0a97d435: Download complete 
-Digest: sha256:7f0adca1fc6c29c8dc49a2e90037a10ba20dc266baaed0988e9fb4d0d8b85ba0
-Status: Downloaded newer image for nginx:latest
-docker.io/library/nginx:latest
-
-```
-{% endcode %}
-
-* Constuire le conteneur
-
-{% code overflow="wrap" expandable="true" %}
-```
-docker container create nginx:latest -t my-fist-container
-```
-{% endcode %}
-
-{% code overflow="wrap" expandable="true" %}
-```
-```
-{% endcode %}
+Qu'identifiez-vous comme pratique à adapter pour un passage en production ?
