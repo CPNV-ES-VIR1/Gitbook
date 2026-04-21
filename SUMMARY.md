@@ -21,6 +21,9 @@
   * [Déploiement Nginx](laboratoires/deploiement-nginx/README.md)
     * [ETAPE 01 - Déployer une image officielle](laboratoires/deploiement-nginx/etape-01-deployer-une-image-officielle.md)
     * [ETAPE 02 - Personnaliser l'image](laboratoires/deploiement-nginx/etape-02-personnaliser-limage.md)
+* [Evaluation](evaluation/README.md)
+  * [Evaluation Théorique](evaluation/evaluation-theorique.md)
+  * [Evaluation Pratique - Laboratoire](evaluation/evaluation-pratique-laboratoire.md)
 
 ## Archives
 
