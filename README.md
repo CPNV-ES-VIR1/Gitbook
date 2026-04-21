@@ -49,7 +49,7 @@ Au terme du module, le technicien sera capable de:
   * rendu unique en fin de module comprenant:
     * un dépôt github,
     * un wiki technique.
-  * par équipe de 2 membres.
+  * <mark style="color:violet;">**par équipe de 2 membres.**</mark>
 
 #### Contenu du module
 
