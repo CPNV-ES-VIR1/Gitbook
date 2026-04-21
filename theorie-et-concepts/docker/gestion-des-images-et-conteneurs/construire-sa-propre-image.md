@@ -40,7 +40,7 @@ Cela facilite le **développement local** sans reconstruire l’image à chaque 
 {% embed url="https://docs.docker.com/engine/storage/volumes/" %}
 
 {% hint style="warning" %}
-Réaliser le laboratoire "[Déployement Nginx](../../../../laboratoires/deploiement-nginx/)" pour pratiquer toutes les notions abordées ci-dessus.
+Réaliser le laboratoire "[Déployement Nginx](../../../laboratoires/deploiement-nginx/)" pour pratiquer toutes les notions abordées ci-dessus.
 {% endhint %}
 
 ## Réseaux Docker
