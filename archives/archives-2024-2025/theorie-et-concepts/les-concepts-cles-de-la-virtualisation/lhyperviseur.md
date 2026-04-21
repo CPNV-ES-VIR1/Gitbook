@@ -13,4 +13,4 @@ Les hyperviseurs de type I et II se distinguent principalement par leur mode de 
 
 Source: [AWS](https://aws.amazon.com/compare/the-difference-between-type-1-and-type-2-hypervisors/)
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption><p>Source : medium</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (15).png" alt=""><figcaption><p>Source : medium</p></figcaption></figure>

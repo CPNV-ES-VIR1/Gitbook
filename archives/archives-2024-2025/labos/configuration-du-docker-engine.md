@@ -48,19 +48,18 @@ admin@SC-C221-LP07:~$
 * [ ] Après l'installation, lancer le docker destop (c'est la seule manière pour lancer le docker engine sous windows)
 * [ ] Se connecter (ou créer un compte Docker)
 * [ ] Répondre au "welcome survey"
-*   [ ] En bas à droite de l'écran d'accueil de Docker Desktop, il vous sera peut-être mentionné de faire une mise à jour. Faites-la !\
+*   [ ] En bas à droite de l'écran d'accueil de Docker Desktop, il vous sera peut-être mentionné de faire une mise à jour. Faites-la !<br>
 
-
-    <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 
 * [ ] Vérifier que votre système est à jour
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 * [ ] Observer le statut de l'Engine
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 * [ ] Exécuter votre première commande via le cli de Docker pour valider l'installation (il s'agit de lister tous les conteneurs actuellement présents sur votre machine. Il est donc normal que le résultat, excepté les entêtes des colonnes, soit vide).
 

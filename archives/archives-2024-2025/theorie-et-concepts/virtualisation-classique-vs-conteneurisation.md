@@ -18,7 +18,7 @@ Les différences majeures entre la virtualisation basée sur des machines virtue
 
 ## D'un point de vue de l'architecture
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption><p>Source : <a href="https://www.netsolutions.com/insights/containerization-vs-virtualization/">Net Solutions</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption><p>Source : <a href="https://www.netsolutions.com/insights/containerization-vs-virtualization/">Net Solutions</a></p></figcaption></figure>
 
 Observations:
 

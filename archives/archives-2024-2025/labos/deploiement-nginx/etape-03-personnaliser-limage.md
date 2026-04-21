@@ -19,7 +19,7 @@ A la fin du laboratoire, cette page supplémentaire doit pouvoir être appellé 
 localhost:8080/login.html
 ```
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Résultat à obtenir pour la page /login<br></p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Résultat à obtenir pour la page /login<br></p></figcaption></figure>
 
 {% hint style="danger" %}
 La page d'accueil doit toujours être disponible via localhost:8080 !
@@ -27,10 +27,10 @@ La page d'accueil doit toujours être disponible via localhost:8080 !
 
 ## Prérequis
 
-* [ ] Avoir terminé l'étape précédente, "[Step 01 - Déployer une image officielle](broken-reference)"
+* [ ] Avoir terminé l'étape précédente, "[Step 01 - Déployer une image officielle](/broken/pages/JKaUoRLSmy9q9XJWceWL)"
 * [ ] Disposer en local du template HTML/CSS que nous utiliserons comme page d'accès pour nos membres.
 
-{% file src="../../.gitbook/assets/login-form-v1.zip" %}
+{% file src="../../../../.gitbook/assets/login-form-v1.zip" %}
 Source : [Colorlib](https://colorlib.com/wp/template/login-form-v1/)
 {% endfile %}
 
@@ -85,7 +85,7 @@ Dans ce laboratoire nous aimerions, en partant de cette même image, ajouter une
 
 * [ ] Ouvrir le répertoire "CustomNginx" dans Visual Studio Code et éventuellement valider cet emplacement (trust folder)
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Validation de sécurité du répertoire "CustomNginx"</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Validation de sécurité du répertoire "CustomNginx"</p></figcaption></figure>
 
 * [ ] Intégrer ce contenu dans le fichier DockerFile
 

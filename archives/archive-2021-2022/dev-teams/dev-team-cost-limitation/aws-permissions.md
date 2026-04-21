@@ -1,7 +1,6 @@
 # AWS Permissions
 
-Voici les permissions spéciales qui ont été attribuées à votre équipe:\
-
+Voici les permissions spéciales qui ont été attribuées à votre équipe:<br>
 
 ### Pour le service "Billing"
 

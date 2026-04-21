@@ -6,7 +6,7 @@ Présentation
 
 Une passerelle d'API est un outil de [gestion des API](https://www.redhat.com/fr/topics/integration/la-gestion-des-api-quest-ce-que-cest) qui se positionne entre un client et un ensemble de services back-end. Dans ce contexte, le client est une application exécutée sur l'appareil d'un utilisateur et les services back-end sont ceux qui s'exécutent sur les serveurs d'une entreprise. Une [API (Application Programming Interface, ou interface de programmation d'application)](https://www.redhat.com/fr/topics/api/what-are-application-programming-interfaces) est un ensemble de définitions et de protocoles qui facilite la création et l'intégration des applications.
 
-<figure><img src="../../.gitbook/assets/image (40).png" alt=""><figcaption><p><a href="https://microservices.io/patterns/apigateway.html">Microservices.io</a></p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (40).png" alt=""><figcaption><p><a href="https://microservices.io/patterns/apigateway.html">Microservices.io</a></p></figcaption></figure>
 
 La passerelle d'API est un composant du processus de distribution d'applications, c'est-à-dire l'ensemble des services qui font fonctionner une application. Elle agit comme un proxy inversé (reverse proxy) qui accepte tous les appels d'[API](https://www.redhat.com/fr/topics/api/what-are-application-programming-interfaces), rassemble les différents services requis pour y répondre et renvoie le résultat approprié. <mark style="color:orange;">Plus simplement, une passerelle d'API est un composant logiciel qui intercepte les appels d'API émis par un utilisateur et les achemine vers le service back-end approprié.</mark>
 

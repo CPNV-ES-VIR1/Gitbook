@@ -8,7 +8,7 @@ Une approche microservices va être favorisée afin que ce projet d'infrastructu
 
 ## Architecture du projet
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Architecture cible du projet</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Architecture cible du projet</p></figcaption></figure>
 
 {% hint style="danger" %}
 Ce schéma présente l'intention globale du projet. De nombreux éléments sont absents et/ou devront évoluer pour répondre aux critères du projet.
@@ -18,4 +18,4 @@ Ce schéma présente l'intention globale du projet. De nombreux éléments sont 
 
 En étudiant ce schéma, prenez le temps de faire un "brouillon" du product backlog.
 
-{% file src="../.gitbook/assets/infra.eraserdiagram" %}
+{% file src="../../../.gitbook/assets/infra.eraserdiagram" %}

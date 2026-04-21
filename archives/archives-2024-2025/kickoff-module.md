@@ -23,7 +23,7 @@
   * Démonstration en classe.
 * Projet
   * Transfert des compétences dans un projet.
-  * <mark style="color:violet;">**Par équipe (2 développeurs). !!! Question à la classe**</mark>
+  * Par équipe (2 développeurs).
 
 #### Objectifs évaluables
 
@@ -38,7 +38,7 @@ Au terme du module, le technicien sera capable de:
 #### Modalités d’évaluation
 
 * Théoriques
-  * <mark style="color:violet;">**1 évaluation sommative écrite, (réduction 2 à 1)**</mark>
+  * 2 évaluations sommatives écrites,
   * individuelles.
 * Laboratoires
   * à réaliser durant tous le module,
@@ -53,15 +53,15 @@ Au terme du module, le technicien sera capable de:
 
 #### Contenu du module
 
-* <mark style="color:violet;">(Intéragir avec un Cloud via un CLI en ligne de commandes,) - retrait</mark>
-* <mark style="color:violet;">(Intéragir avec un Cloud via un SDK et du code.) - retrait</mark>
+* Intéragir avec un Cloud via un CLI en ligne de commandes,
+* Intéragir avec un Cloud via un SDK et du code.
 * Réaliser une application respectant les principes de bases des micros-services.
 * Déployer une application en utilisant des technologies de contenerisations.
 
 #### Moyens
 
 * Sources diverses validées et présentées en classe,
-* Accès à une infrastructure de type Cloud (mise à disposition par l'enseignant),
+* Accès à une infrastructure de type Cloud (mise à disposition par l'animateur),
 * Tous les outils de bases du développeurs (IDE, dépôt en ligne, plateforme collaborative),
 * Un logiciel permettant le déploiement et l'orchestration de conteneurs.
 

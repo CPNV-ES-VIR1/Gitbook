@@ -162,7 +162,7 @@ echo %PATH% > path.back
 //TODO
 ```
 
-### Result expected 
+### Result expected<br>
 
 <figure><img src="../../../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 

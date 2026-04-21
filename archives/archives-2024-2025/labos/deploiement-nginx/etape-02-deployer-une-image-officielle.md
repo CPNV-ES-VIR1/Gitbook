@@ -47,7 +47,7 @@ curl localhost:8080
 </html>
 ```
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Résultat à obtenir via votre navigateur</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Résultat à obtenir via votre navigateur</p></figcaption></figure>
 
 
 

@@ -14,7 +14,7 @@ Les applications monolithiques se composent généralement d'une interface utili
 
 D'autre part, dans une architecture distribuée, chaque microservice fonctionne pour exécuter une fonctionnalité ou une logique métier unique. Au lieu d'échanger des données au sein de la même base de code, les microservices communiquent via une API.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 #### **Processus de développement**
 

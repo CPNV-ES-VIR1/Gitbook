@@ -18,7 +18,7 @@ Source: [GCP](https://cloud.google.com/compute/docs/instances/instance-life-cycl
 
 Le schéma suivant montre les transitions entre les différents états d'une VM:
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption><p>Source: <a href="https://cloud.google.com/compute/docs/instances/instance-life-cycle?hl=fr">GCP</a></p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (16).png" alt=""><figcaption><p>Source: <a href="https://cloud.google.com/compute/docs/instances/instance-life-cycle?hl=fr">GCP</a></p></figcaption></figure>
 
 Une VM peut avoir l'un des états suivants :
 
