@@ -21,9 +21,16 @@
   * [Déploiement Nginx](laboratoires/deploiement-nginx/README.md)
     * [ETAPE 01 - Déployer une image officielle](laboratoires/deploiement-nginx/etape-01-deployer-une-image-officielle.md)
     * [ETAPE 02 - Personnaliser l'image](laboratoires/deploiement-nginx/etape-02-personnaliser-limage.md)
+  * [Payroll](laboratoires/payroll.md)
 * [Evaluation](evaluation/README.md)
   * [Evaluation Théorique](evaluation/evaluation-theorique.md)
   * [Evaluation Pratique - Laboratoire](evaluation/evaluation-pratique-laboratoire.md)
+* [Projet](projet/README.md)
+  * [Docker Dod](projet/docker-dod/README.md)
+    * [Docker host](projet/docker-dod/docker-host.md)
+    * [Les conteneurs](projet/docker-dod/les-conteneurs.md)
+    * [Réseau](projet/docker-dod/reseau.md)
+* [Bibliographie](bibliographie.md)
 
 ## Archives
 
