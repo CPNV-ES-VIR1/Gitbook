@@ -41,7 +41,7 @@ Ne jamais exposer le "daemon socket" via le réseau (même prinicpe que pour MyS
 
 ### API
 
-Si des API doivent être accessibles à travers le réseau, activé le TLS authentication.
+Si des API doivent être accessibles à travers le réseau, activer le TLS authentication.
 
 {% embed url="https://docs.docker.com/engine/security/protect-access/#use-tls-https-to-protect-the-docker-daemon-socket" %}
 
@@ -58,7 +58,7 @@ Favoriser l'utilisation d'un utilisateur à droits limités pour exécuter votre
 
 {% embed url="https://docs.docker.com/engine/security/rootless/troubleshoot/" %}
 
-### Mise en place d'outil d'audit
+### Mise en place d'outils d'audit
 
 Réaliser des audits régulières pour anticiper des mauvaises utilisations de votre infrastructure.
 
