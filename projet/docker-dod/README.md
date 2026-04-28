@@ -16,10 +16,6 @@ Ce document permet également de comprendre pourquoi un simple "apt install dock
 [les-conteneurs.md](les-conteneurs.md)
 {% endcontent-ref %}
 
-{% content-ref url="/broken/pages/SFXkfQGYBLtVRO2ziTdw" %}
-[Broken link](/broken/pages/SFXkfQGYBLtVRO2ziTdw)
-{% endcontent-ref %}
-
 {% content-ref url="reseau.md" %}
 [reseau.md](reseau.md)
 {% endcontent-ref %}
