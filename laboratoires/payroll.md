@@ -1,5 +1,5 @@
 # Payroll
 
-## Introduction
+Le contenu de ce laboratoire est présent ici:
 
-Afin de vous préparer à la configuration de votre Docker Engine sur l'environnement de
+{% embed url="https://github.com/CPNV-ES-VIR1/payroll-start-point" %}
