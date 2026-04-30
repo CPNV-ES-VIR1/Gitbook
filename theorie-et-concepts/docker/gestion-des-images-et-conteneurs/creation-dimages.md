@@ -9,6 +9,8 @@ Docker est un outil de conteneurisation qui permet aux développeurs de <mark st
 * les variables d'environnement, et&#x20;
 * les configurations par défaut.
 
+{% embed url="https://www.hashicorp.com/en/resources/what-is-mutable-vs-immutable-infrastructure" %}
+
 ## **Création et Gestion d'Images Docker**
 
 ### **Dockerfile**
@@ -26,6 +28,16 @@ CMD ["node", "src/index.js"]    //on utilise l exécutable node pour lire le fic
 EXPOSE 3000                     //mentionner que l image va exposer le 3000
 ```
 {% endcode %}
+
+### Multistage
+
+Les processus de compilation en plusieurs étapes (multistage) sont utiles à tous ceux qui ont eu du mal à optimiser leurs fichiers Dockerfile tout en veillant à ce qu'ils restent faciles à lire et à maintenir.
+
+Dans le cadre du _multistage_, vous utilisez plusieurs instructions FROM dans votre Dockerfile. Chaque instruction FROM peut utiliser une image de base différente, et chacune d'entre elles marque le début d'une nouvelle étape du build. Vous pouvez copier de manière sélective des artefacts d'une étape à l'autre, en laissant de côté tout ce que vous ne souhaitez pas voir figurer dans l'image finale.
+
+{% embed url="https://docs.docker.com/build/building/multi-stage/" %}
+
+{% embed url="https://github.com/CPNV-ES-VIR1/payroll-start-point/blob/main/payroll/Dockerfile" %}
 
 ### **Build d'une image**
 
