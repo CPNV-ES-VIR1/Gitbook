@@ -39,6 +39,13 @@ Dans le cadre du _multistage_, vous utilisez plusieurs instructions FROM dans vo
 
 {% embed url="https://github.com/CPNV-ES-VIR1/payroll-start-point/blob/main/payroll/Dockerfile" %}
 
+```
+//observer la différence de taille entre les images de dev, et de prod
+IMAGE                            ID             DISK USAGE   CONTENT SIZE   EXTRA
+eclipse-temurin:17-jre           07c1f0f0c3f3        377MB         97.5MB        
+maven:3.9.5-eclipse-temurin-17   bb7ab7f3e720        727MB          221MB        
+```
+
 ### **Build d'une image**
 
 La commande `docker build` permet de <mark style="color:orange;">créer une image à partir d'un Dockerfile</mark>. Il est essentiel de suivre les bonnes pratiques lors de la rédaction du Dockerfile pour optimiser la taille de l'image et la vitesse de construction.
