@@ -2,6 +2,7 @@
 
 * [Kickoff Module](README.md)
 * [Roadmap](roadmap.md)
+* [Docker Compose](docker-compose.md)
 * [Théorie et concepts](theorie-et-concepts/README.md)
   * [La virtualisation](theorie-et-concepts/la-virtualisation/README.md)
     * [L'hyperviseur](theorie-et-concepts/la-virtualisation/lhyperviseur.md)
