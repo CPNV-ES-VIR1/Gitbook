@@ -23,7 +23,7 @@ Docker Compose est particulièrement utile en développement local, pour reprodu
 
 On utilise généralement un orchestrateur de conteneurs comme :
 
-* Kubernetes\
+* **Kubernetes**\
   La solution la plus répandue aujourd’hui. Elle permet :
   * le déploiement distribué sur plusieurs serveurs,
   * l’auto-scaling,
@@ -31,10 +31,18 @@ On utilise généralement un orchestrateur de conteneurs comme :
   * le redémarrage automatique des conteneurs,
   * le rolling update,
   * la gestion avancée du réseau et du stockage.
-* Docker Swarm\
+
+{% embed url="https://kubernetes.io/" %}
+
+* **Docker Swarm**\
   Plus simple que Kubernetes et intégré à Docker, mais aujourd’hui beaucoup moins utilisé dans les grandes infrastructures.
-* Nomad\
+
+{% embed url="https://docs.docker.com/engine/swarm/" %}
+
+* **Nomad**\
   Une alternative légère et flexible proposée par [HashiCorp](https://www.hashicorp.com/?utm_source=chatgpt.com)
+
+{% embed url="https://developer.hashicorp.com/nomad" %}
 
 ### OCI
 
@@ -45,4 +53,6 @@ Cette initiative définit des standards ouverts pour les formats d’images et l
 Grâce à OCI, une image construite avec Docker peut également être exécutée avec d’autres runtimes compatibles comme containerd ou Podman.&#x20;
 
 Docker Compose s’inscrit donc dans un environnement plus large et standardisé, où les technologies de conteneurisation interopèrent autour de spécifications communes.
+
+{% embed url="https://opencontainers.org/" %}
 
